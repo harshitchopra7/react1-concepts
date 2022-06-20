@@ -1,0 +1,35 @@
+API - Application Programming Interface
+
+API consists of two parts -
+1. header
+2. body
+
+Request - From Frontend to Backend
+Response - From Backend to Frontend (Happy case, error case)
+
+Database Operations -
+CRUD (Create, Read, Update, Delete)
+
+API Header?
+POST - Create
+GET - READ
+PUT - Update 
+DELETE - Delete
+
+API Body?
+Contain the details that needs to be sent to the backend
+Example - 
+mobileName: iphone 13,
+price: 75,000
+
+{
+    mobileName: value1,
+    price: value1
+}
+
+Endpoint 
+This is the url where request has to be made
+
+API Calling Methods -
+1. fetch
+2. axios
