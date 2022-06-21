@@ -33,3 +33,20 @@ This is the url where request has to be made
 API Calling Methods -
 1. fetch
 2. axios
+
+We always have 2 scenarios in an API
+1. Happy case (API is fulfilled)
+2. Error case (API is rejected)
+
+Hooks
+1. useState - manages state variable throught the component
+
+2. useEffect 
+- takes two params -> a) function , b) array (dependency array)
+
+- Ways in which useEffect works
+    1. Empty array ([]) - runs useEffect only once at the time of rendering
+    2. Variables in array - runs useEffect once at the time of rendering 
+       and runs as many times the variables in the dependency array updates
+    3. No array - runs useEffect once at the time of rendering 
+       and runs everytime whenever any variable in that component updates/modifies

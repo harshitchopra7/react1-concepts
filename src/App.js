@@ -1,12 +1,9 @@
 import './App.css';
+import { useState, useEffect } from "react"
 import ApiCalling from './components/ApiCalling/ApiCalling';
 import Form from './components/Form/Form';
 
 function App() {
-
-  // forms in react
-  // hooks
-
   return (
     <div className="App">
       {/* <Form /> */}
